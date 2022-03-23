@@ -1,0 +1,1 @@
+Navigate to a folder and run 
