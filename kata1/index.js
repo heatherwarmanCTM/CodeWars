@@ -1,1 +1,4 @@
-console.log("Your code goes in this file")
+console.log(function multiply(a, b){
+    a * b
+    return a * b
+    })
