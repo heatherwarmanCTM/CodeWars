@@ -1,11 +1,13 @@
-function warnTheSheep(queue) {
-  const wolfIndex = queue.indexOf('wolf');
-  
-  if( wolfIndex === queue.length - 1) {
-return "Pls go away and stop eating my sheep";
+function calculator(a,b,sign){
+  if(sign ==='+')
+    return a+b
+  else if (sign ==="-")
+    return a-b
+  else if (sign === "*")
+    return a*b
+  else if (sign === "/")
+    return a/b
+  else if (isNaN(NaN));
+    return'unknown value'
   }
   
-  const sheepIndex = queue.length - wolfIndex - 1;
-  
-return `Oi! Sheep number ${sheepIndex}! You are about to be eaten by a wolf!`;
-}
